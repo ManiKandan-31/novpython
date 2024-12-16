@@ -19,12 +19,15 @@ sum_marks=maths+phy+chem
 per=(sum_marks/total_marks)*100
 print(per)
 if per<35:
-    print('Grade is F')
+     print('Grade is F')
 elif per>35 and per<=50:
-     print('Grade is C')
+      print('Grade is C')
 elif per in range(51,91):
-      print('Grade is B')
+       print('Grade is B')
 elif per in range(91,101):
-      print('Grade is A')
+       print('Grade is A')
 else:
-      print('Invaid per')
+       print('Invaid per')
+
+
+
